@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>COMPAÑÍA DE BOMBEROS QUINTA NORMAL</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- icon -->
+  <link rel="icon" type="image/png" href="img/logo.png">
+<style type="text/css">
+div a i{
+  color:grey;
+  margin-right: 5px;
+}
+nav ul li a.color{
+    color:grey;
+  }
+  div a i.hover1:hover{
+    color:#b388ff;
+  }
+  div a i.hover2:hover{
+    color:#1565c0;
+  }
+div a i.hover3:hover{
+    color:#950505;
+  }
+  div a i.hover4:hover{
+    color:#64b5f6;
+  }
+
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:black;
+    opacity:0.5;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#900606;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+div li a.hover:hover{
+  font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="hide-on-med-and-down grey darken-4" style="height: 56px;">
+  <div class="container">
+    <div class="row">
+      <div class="col m12 l12 grey-text text-lighten-3" style="margin-top:15px;">
+        <i style="color: #c2185b;" class="fas fa-map-marker-alt"></i> Martínez de Rosas 4290, Quinta Normal
+        <div class="right grey-text">
+          <a href=""><i class="hover1 fab fa-instagram fa-lg"></i></a>
+          <a href=""><i class="hover2 fab fa-facebook fa-lg"></i></a>
+          <a href=""><i class="hover3 fab fa-youtube fa-lg"></i></a>
+          <a href=""><i class="hover4 fab fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <nav class="grey lighten-5 black-text" role="navigation">
+    <div class="nav-wrapper container black-text"><a id="logo-container" href="#" class="brand-logo">
+      <img src="img/logo.png" style="width:2em;">
+    </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="color" href="index.html">Inicio</a></li>
+        <li class="active"><a class="dropdown-trigger color" href="#!" data-target="dropdown1">Conócenos <i class="fas fa-sort-down fa-sm"></i></a></li>
+
+        <li><a class="color" href="companias_hermanas.html">Compañías Hermanas</a></li>
+        <li><a class="color" href="vehiculos.html">Vehículos</a></li>
+        <li><a class="color" href="voluntariado.html">Voluntariado</a></li>
+        <li><a class="color" href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="historia.html">Historia</a></li>
+        <li class="divider"></li>
+        <li><a href="cuartel.html">Cuartel</a></li>
+        <li class="divider"></li>
+        <li><a href="nuestro_santo.html">Nuestro Santo</a></li>
+        <li class="divider"></li>
+        <li><a href="nuestro_martir.html">Nuestro Mártir</a></li>
+      </ul>
+
+      <!--Menú teléfono-->
+      <ul id="nav-mobile" class="sidenav" style="background-color:#B42828;">
+        <li><a style="color:white;" href="index.html">Inicio</a></li>
+        <li><a class="dropdown-trigger" style="color:white;" href="#!" data-target="dropdown2">Conócenos <i class="fas fa-sort-down fa-sm"></i></a></li>
+
+        <li><a style="color:white;" href="companias_hermanas.html">Compañías Hermanas</a></li>
+        <li><a style="color:white;" href="vehiculos.html">Vehículos</a></li>
+        <li><a style="color:white;" href="voluntariado.html">Voluntariado</a></li>
+        <li><a style="color:white;" href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="historia.html">Historia</a></li>
+        
+        <li><a href="cuartel.html">Cuartel</a></li>
+        
+        <li><a href="nuestro_santo.html">Nuestro Santo</a></li>
+        
+        <li><a href="nuestro_martir.html">Nuestro Mártir</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+    </nav>
+
+  
+  <div class="section" style="background: lightblue url('img/truck.png') no-repeat fixed center;">
+  	<div class="container">
+  		<div class="row">
+  			
+  				<div class="card col s12 m12 l12 white-text" style="background-color: #B42828;">
+		          <div class="card-content">
+		          	<h6>HISTORIA</h6>
+		          </div>
+		        </div>
+		 </div>
+		 <div class="row card" style="opacity:0.9;">
+		 <div class="card-content col s12 m12 l12">
+  				<p>
+  				<img src="img/logo.png" style="float:left;width:25em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Info</h5>
+          <ul>
+            <li><a class="white-text hover" href="companias_hermanas.html">Compañías Hermanas</a></li>
+            <li><a class="white-text hover" href="vehiculos.html">Vehículos</a></li>
+            <li><a class="white-text hover" href="voluntariado.html">Voluntariado</a></li>
+            <li><a class="white-text hover" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Nuestras Redes</h5>
+          <ul>
+            <li><a class="white-text hover" href="#!"><i class="hover1 fab fa-instagram"></i> Instagram</a></li>
+            <li><a class="white-text hover" href="#!"><i class="hover2 fab fa-facebook"></i> Facebook</a></li>
+            <li><a class="white-text hover" href="#!"><i class="hover3 fab fa-youtube"></i> Youtube</a></li>
+            <li><a class="white-text hover" href="#!"><i class="hover4 fab fa-twitter"></i> Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2019 Derechos Reservados.
+      <div class="right">
+        Powered by <a class="orange-text text-lighten-3" href="http://materializecss.com">Miguel Garcia</a>
+      </div>
+      
+      </div>
+    </div>
+  </footer>
+
+  <!--back to top button-->
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
+  <script type="text/javascript">
+  $( document ).ready(function() {
+    $(".dropdown-trigger").dropdown({
+      coverTrigger:false
+    });
+
+      $('.carousel.carousel-slider').carousel({
+   fullWidth: true,
+   padding: 200,
+   indicators: true
+ }, setTimeout(autoplay, 4500));
+
+ function autoplay() {
+   $('.carousel').carousel('next');
+   setTimeout(autoplay, 4500);
+ }
+
+  /*back to top*/
+  $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+  });
+    
+  </script>
+
+  </body>
+</html>
